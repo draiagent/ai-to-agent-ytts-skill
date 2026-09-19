@@ -1,0 +1,14 @@
+interface:
+  display_name: ytts-skill
+  short_description: YouTube 影片轉繁體中文逐字稿，產生標題與固定署名，不生成摘要
+  default_prompt: 使用 $ytts-skill 將提供的影片轉為繁體中文逐字稿，生成標題，不要摘要，最後署名 AI Coach 益力康陳董 | 2026
+    AI to Agent。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
